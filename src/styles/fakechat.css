@@ -1,0 +1,27 @@
+.fakeChat {
+    border-top: 1px solid rgba(100,100,100,.8);
+    background-color: rgb(54,57,63);
+    height: 75px;
+    width: 77.75%;
+    bottom: 0;
+    left: 325px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fakeChat > input {
+    width: 95%;
+    height: 35px;
+    border-radius: 7px;
+    background-color: rgb(64, 68, 75);
+    font-size: 15px;
+    color: lightgray;
+    border: none;
+    padding: 0px 10px;
+}
+
+.fakeChat > input:focus {
+    outline:none;
+}

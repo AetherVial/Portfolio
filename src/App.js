@@ -6,6 +6,8 @@ import Links from './links';
 import Home from './home';
 import Projects from './projects';
 import Skills from './skills';
+import FakeChat from './fakechat';
+import Contact from './contact';
 
 function App() {
   return (
@@ -13,9 +15,11 @@ function App() {
       <div className="App">
         <Route path="/" component={Links}/>
         <Route path="/" component={Sidebar}/>
+        <Route path="/" component = {FakeChat} />
         <Route exact path="/Portfolio/" component={Home}/>
         <Route exact path="/Portfolio/projects" component={Projects}/>
         <Route exact path="/Portfolio/skills" component={Skills} />
+        <Route exact path="/Portfolio/contact" component={Contact} />
       </div>
     </BrowserRouter>
   );

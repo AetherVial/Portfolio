@@ -38,7 +38,7 @@ const Projects = () => (
                         <br></br>
                         Check it out here! <a rel="noopener noreferrer" target="_blank" style={{ color: 'gold' }} href="https://safewalker.herokuapp.com">Live Link</a>
                         <br></br>
-                        <a href="https://vaporize-sh.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://safewalker.herokuapp.com" target="_blank" rel="noopener noreferrer">
                             <img alt="" src={require("./assets/safewalk.png")}></img>
                         </a>
                     </div>
@@ -60,6 +60,8 @@ const Projects = () => (
                     </div>
                 </div>
             </div>
+
+            <div className="chat" style={{height: '75px'}}></div>
     </div>
 </div>
 )
