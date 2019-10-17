@@ -1,6 +1,8 @@
+.home {
+    width: 100%;
+}
 .home > nav {
     width: 100%;
-    left: 285px;
     height: 5%;
     min-height: 45px;
     box-shadow: 0px 2px 3px -2px rgba(0, 0, 0, .8);
@@ -24,16 +26,15 @@ nav > svg {
 
 .home > div {
     top: 0;
-    position: relative;
     height: calc(100vh - 45px);
-    width: 80vw;
+    width: 100%;
     overflow: hidden scroll;
     padding-top: 45px;
     color: white;
 }
 
 .entered-channel {
-    width: 93%;
+    width: 92%;
     margin-left: 10px;
     padding: 20px 10px;
     min-height: auto;
@@ -54,6 +55,7 @@ nav > svg {
     margin-left: 10px;
     margin-right: 10px;
     padding-left: 10px;
+    padding-right: 10px;
     border-bottom: 1px solid rgba(100,100,100,.8);
     padding-bottom: 5px;
     font-size: 15px;
@@ -65,6 +67,7 @@ nav > svg {
     width: 92%;
     padding-top: 30px;
     padding-left: 10px;
+    padding-right: 10px;
     margin-left: 10px;
     margin-right: 10px;
     border-bottom: 1px solid rgba(100,100,100,.8);
