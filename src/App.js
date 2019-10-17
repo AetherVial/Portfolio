@@ -5,6 +5,7 @@ import Sidebar from './sidebar';
 import Links from './links';
 import Home from './home';
 import Projects from './projects';
+import Skills from './skills';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" component={Sidebar}/>
         <Route exact path="/" component={Home}/>
         <Route exact path="/projects" component={Projects}/>
+        <Route exact path="/skills" component={Skills} />
       </div>
     </BrowserRouter>
   );

@@ -22,7 +22,7 @@ const Sidebar = () => (
               Contact</NavLink>
     </ul>
     <footer className="footer">
-      hi
+      User Info
     </footer>
   </span>
 )

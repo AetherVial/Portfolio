@@ -1,5 +1,5 @@
 .home > nav {
-    width: 81.5vw;
+    width: 100%;
     left: 285px;
     height: 5%;
     min-height: 45px;
@@ -26,19 +26,20 @@ nav > svg {
     top: 0;
     position: relative;
     height: calc(100vh - 45px);
-    width: 81.5vw;
+    width: 80vw;
     overflow: hidden scroll;
     padding-top: 45px;
     color: white;
 }
 
-.chat {
-    width: 100%;
+.entered-channel {
+    width: 93%;
+    margin-left: 10px;
+    padding: 20px 10px;
     min-height: auto;
     display: flex;
     justify-content: left;
-    padding: 30px 10px;
-    /* border: 3px solid red; */
+    border-bottom: 1px solid rgba(100,100,100,.8);
 }
 
 .beginning {
@@ -48,7 +49,8 @@ nav > svg {
     background-image: url('../assets/discord-right.png'), url('../assets/discord-left.png');
     background-position: left bottom, right bottom;
     background-repeat: no-repeat, no-repeat;
-    height: 100px;
+    height: 75px;
+    width: 92%;
     margin-left: 10px;
     margin-right: 10px;
     padding-left: 10px;
@@ -60,7 +62,7 @@ nav > svg {
 
 .chat {
     display: flex;
-    width: 96.75%;
+    width: 92%;
     padding-top: 30px;
     padding-left: 10px;
     margin-left: 10px;
@@ -112,4 +114,10 @@ a > img {
     padding-top: 10px;
     height: 25%;
     width: 25%;
+}
+
+.entered-channel > svg {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
 }

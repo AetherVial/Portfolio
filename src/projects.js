@@ -50,7 +50,7 @@ const Projects = () => (
                 <div>
                     <div className='author'>Stanton  <p>Today at {time}</p></div>
                     <div>
-                        Enter Enter the Blungeon, a JavaScript shoot'em'up style game with rogue-like mechanics, like upgrades after ever round.
+                        Enter Enter the Blungeon, a JavaScript shoot'em'up style game with rogue-like mechanics, such as upgrades after every round.
                         <br></br>
                         Play it here: <a rel="noopener noreferrer" target="_blank" style={{ color: 'gold' }} href="https://aethervial.github.io/Game">Live Link</a>
                         <br></br>
