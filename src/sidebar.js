@@ -22,7 +22,15 @@ const Sidebar = () => (
               Contact</NavLink>
     </ul>
     <footer className="footer">
-      User Info
+      <div className='chat'>
+        <div className="icon-container"><div className='chatIcon'>hi</div> </div>
+        <div>
+          <div className='user'>Recruiter&nbsp;#0001</div>
+          <div>
+            Online
+          </div>
+        </div>
+      </div>
     </footer>
   </span>
 )

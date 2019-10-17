@@ -125,3 +125,7 @@ a > img {
     width: 20px;
     margin-right: 10px;
 }
+
+.chat > div > div > a {
+    color: gold;
+}

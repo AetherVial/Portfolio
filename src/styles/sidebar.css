@@ -162,6 +162,31 @@ div > svg {
 .footer {
     display: flex;
     margin-bottom: 0;
-    height: 60px;
+    height: 70px;
     background-color: rgb(41,43,47);
+    font-size: 12px;
+    color:grey;
+    font-weight: bold;
+}
+
+.footer > .chat {
+    padding: 0;
+    border: none;
+}
+
+.footer > .chat > .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > .chat > .icon-container > .chatIcon {
+    height: 35px;
+    width: 35px;
+}
+
+.user {
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
 }
