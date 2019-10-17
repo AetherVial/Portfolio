@@ -99,4 +99,17 @@ nav > svg {
     padding-left: 10px;
 }
 
+.author > p {
+    display: flex;
+    align-items: flex-end;
+    color: rgba(100,100,100,.8);
+    font-size: 12px;
+    padding: 0;
+    margin: 0 10px;
+}
 
+a > img {
+    padding-top: 10px;
+    height: 25%;
+    width: 25%;
+}

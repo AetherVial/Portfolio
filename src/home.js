@@ -1,6 +1,9 @@
 import React from 'react';
 import "./styles/home.css";
 
+const today = new Date();
+const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
 const Home = () => (
     <div className="home">
         <nav>
@@ -14,11 +17,32 @@ const Home = () => (
             <div className='chat'>
                 <div className="icon-container"><div className='chatIcon'>hi</div> </div>
                 <div>
-                    <div className='author'>Stanton</div>
+                    <div className='author'>Stanton  <p>Today at {time}</p></div>
                     <div>
-                        Hi my name is Stanton, and I'm a software developer.
-                        <br/>
-                        Carlos Delao Martinez is so cool.
+                        Hi my name is Stanton, and I'm a software developer with experience 
+                        <br></br>
+                        in Ruby on Rails, JavaScript, Node.js, and React.js/ Redux, PostgreSQL, 
+                        and MongoDB. 
+                        <br></br>I've also earned degrees in Mathematics and Economics from Emory University. 
+                        <br></br>
+                        Both my education and my coding experience have been strongly influenced by desire to 
+                        <br></br>
+                        solve complex problems. I'm looking for opportunities to continue learning and 
+                        <br></br>
+                        show what I've learned in a fast paced environment.
+                    </div>
+                </div>
+            </div>
+            <div className='chat'>
+                <div className="icon-container"><div className='chatIcon'>hi</div> </div>
+                <div>
+                    <div className='author'>Stanton  <p>Today at {time}</p></div> 
+                    <div>
+                        I hope you have fun checking out my Discord-themed portfolio site!
+                        <br></br>
+                        You can click the links in the sidebar to get to my online profiles and resume, 
+                        <br></br>
+                        or any of the tabs to hit other parts of my portfolio.
                     </div>
                 </div>
             </div>
