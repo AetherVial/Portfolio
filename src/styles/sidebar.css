@@ -1,0 +1,156 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(54,57,63);
+    overflow: hidden;
+}
+.navBar {
+    display: flex;
+    flex-direction: column;
+    width: 12.5vw;
+    min-width: 220px;
+    height: 100vh;
+    background-color: rgb(47,49,54);
+    color: white;
+    margin-left: 65px;
+}
+
+.navBar > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 7% 0px;
+    font-size: 12.5px;
+    z-index: 1;
+}
+
+.navBar > div {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    min-height: 45px;
+    box-shadow: 0px 2px 3px -2px rgba(0, 0, 0, .8);
+}
+
+.link {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10%;
+    height: 40px;
+    width: 80%;
+    color: lightgrey;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    letter-spacing: .05em;
+}
+
+.active {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10%;
+    height: 40px;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    letter-spacing: .05em;
+    background-color: rgb(54,57,63);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    width: 3.75vw;
+    min-width: 65px;
+    height: 100vh;
+    background-color: rgb(32,34,37);
+    position: fixed;
+}
+
+.links > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links-head {
+    height: 3.75vw;
+    width: 3.75vw;
+    min-width: 65px;
+    min-height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-head > div {
+    height: 70%;
+    width: 70%;
+    border-radius: 35%; 
+    background-color: rgb(114, 137, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.link > svg {
+    height: 25px;
+    width: 25px;
+    margin-right: 10%;
+}
+
+div > svg {
+    height: 25px;
+    width: 25px;
+    text-shadow:1px 1px 2px black;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.contacts > li > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 65px;
+}
+
+.contacts > li > a > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 70%;
+    border-radius: 50%; 
+    background-color: rgb(114, 137, 218);
+}
+
+.contacts > li > a > div:hover {
+    animation: round .5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes round {
+    0% {border-radius:50%;}
+    100% {border-radius:35%;}
+}

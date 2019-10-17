@@ -1,0 +1,102 @@
+.home > nav {
+    width: 81.5vw;
+    left: 285px;
+    height: 5%;
+    min-height: 45px;
+    box-shadow: 0px 2px 3px -2px rgba(0, 0, 0, .8);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+    font-size: 10px;
+    position: fixed;
+    background-color: rgb(54,57,63);
+    z-index: 1;
+}
+
+nav > svg {
+    height: 25px;
+    width: 25px;
+    padding-right: 7.5px;
+    color: grey;
+}
+
+.home > div {
+    top: 0;
+    position: relative;
+    height: calc(100vh - 45px);
+    width: 81.5vw;
+    overflow: hidden scroll;
+    padding-top: 45px;
+    color: white;
+}
+
+.chat {
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    justify-content: left;
+    padding: 30px 10px;
+    /* border: 3px solid red; */
+}
+
+.beginning {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    background-image: url('../assets/discord-right.png'), url('../assets/discord-left.png');
+    background-position: left bottom, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid rgba(100,100,100,.8);
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.chat {
+    display: flex;
+    width: 96.75%;
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid rgba(100,100,100,.8);
+    padding-bottom: 20px;
+}
+
+.chatIcon  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; 
+    background-color: rgb(114, 137, 218);
+}
+
+.icon-container {
+    display: flex;
+    height: 100%;
+}
+
+.author {
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 5px;
+}
+
+.chat > div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
