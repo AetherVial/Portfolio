@@ -28,7 +28,8 @@ nav > svg {
     bottom: 0;
     height: 100%;
     width: calc(100% - 320px);
-    overflow: hidden scroll;
+    overflow: hidden;
+    overflow: scroll;
     margin-top: 45px;
     padding-left: 315px;
     color: white;

@@ -21,6 +21,8 @@ body {
     color: white;
     margin-left: 65px;
     position: fixed;
+    overflow: hidden;
+    overflow: scroll;
 }
 
 .navBar > ul {
@@ -82,6 +84,8 @@ body {
     height: 100vh;
     background-color: rgb(32,34,37);
     position: fixed;
+    overflow: hidden;
+    overflow: scroll;
 }
 
 .links > ul {
@@ -101,8 +105,8 @@ body {
 }
 
 .links-head > div {
-    height: 70%;
-    width: 70%;
+    min-height: 45px;
+    min-width: 45px;
     border-radius: 35%; 
     background-color: rgb(114, 137, 218);
     display: flex;
@@ -199,6 +203,8 @@ div > svg {
     align-items: center;
     justify-content: flex-start;
     width: 100%;
+    overflow: hidden;
+    overflow: scroll;
 }
 
 #skillz > div {
