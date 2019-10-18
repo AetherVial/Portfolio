@@ -61,7 +61,8 @@ const Projects = () => (
                 </div>
             </div>
 
-            <div className="chat" style={{height: '75px'}}></div>
+            <div className="chat" style={{height: '75px'}}>
+            </div>
     </div>
 </div>
 )

@@ -1,7 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './styles/sidebar.css';
-
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
 const Sidebar = () => (
   <span className = 'navBar'>
     <div> Stanton Huang's Portfolio </div>
@@ -21,11 +23,27 @@ const Sidebar = () => (
               <svg xmlns="http://www.w3.org/2000/svg" name="PersonWaving" className="linkButtonIcon-Mlm5d6" aria-hidden="false" viewBox="0 0 24 24"><g fill="none" fillRule="evenodd"><path fill="currentColor" fillRule="nonzero" d="M0.5,0 L0.5,1.5 C0.5,5.65 2.71,9.28 6,11.3 L6,16 L21,16 L21,14 C21,11.34 15.67,10 13,10 C13,10 12.83,10 12.75,10 C8,10 4,6 4,1.5 L4,0 L0.5,0 Z M13,0 C10.790861,0 9,1.790861 9,4 C9,6.209139 10.790861,8 13,8 C15.209139,8 17,6.209139 17,4 C17,1.790861 15.209139,0 13,0 Z" transform="translate(2 4)" /><path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z M0,0 L24,0 L24,24 L0,24 L0,0 Z M0,0 L24,0 L24,24 L0,24 L0,0 Z" /></g></svg>
               Contact</NavLink>
     </ul>
+    <div id="skillz">
+      <div>Skills</div>
+      <ul>
+        <li><div>Ruby on Rails</div></li>
+        <li><div>JavaScript</div></li>
+        <li><div>Node.js</div></li>
+        <li><div>Express.js</div></li>
+        <li><div>React.js</div></li>
+        <li><div>Redux.js</div></li>
+        <li><div>HTML5</div></li>
+        <li><div>CSS3</div></li>
+        <li><div>PostgreSQL</div></li>
+        <li><div>MongoDB</div></li>
+
+      </ul>
+    </div>
     <footer className="footer">
       <div className='chat'>
         <div className="icon-container"><div className='chatIcon'>hi</div> </div>
         <div>
-          <div className='user'>Recruiter&nbsp;#0001</div>
+          <div className='user'>Recruiter&nbsp;#0420</div>
           <div>
             Online
           </div>
