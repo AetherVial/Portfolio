@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {HashRouter, Route} from 'react-router-dom';
 import './App.css';
 import Sidebar from './sidebar';
 import Links from './links';
@@ -11,7 +11,7 @@ import Contact from './contact';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Route path="/" component={Links}/>
         <Route path="/" component={Sidebar}/>
@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/contact" component={Contact} />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
