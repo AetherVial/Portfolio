@@ -113,6 +113,8 @@ const Skills = () => (
                 Git has commited... to this channel!
             </div>
         </div>
+
+        <div className='entered-channel'></div>
     </div>
 )
 

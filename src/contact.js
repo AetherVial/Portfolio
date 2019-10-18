@@ -87,7 +87,7 @@ const Contact = () => (
                     </div>
                 </div>
             </div>
-
+            <div class='chat'></div>
         </div>
     </div>
 )
