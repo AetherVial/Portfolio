@@ -19,16 +19,13 @@ const Home = () => (
                 <div>
                     <div className='author'>Stanton  <p>Today at {time}</p></div>
                     <div>
-                        Hi my name is Stanton, and I'm a software developer with experience 
+                        Hi my name is Stanton, and I'm a software developer with experience in Ruby on Rails, JavaScript, Node.js, and React.js/ Redux, PostgreSQL, and MongoDB. 
                         <br></br>
-                        in Ruby on Rails, JavaScript, Node.js, and React.js/ Redux, PostgreSQL, 
-                        and MongoDB. 
-                        <br></br>I've also earned degrees in Mathematics and Economics from Emory University. 
-                        <br></br>
+                        I've also earned degrees in Mathematics and Economics from Emory University. 
                         Both my education and my coding experience have been strongly influenced by desire to 
+                        solve complex problems. 
                         <br></br>
-                        solve complex problems. I'm looking for opportunities to continue learning and 
-                        <br></br>
+                        I'm looking for opportunities to continue learning and 
                         show what I've learned in a fast paced environment.
                     </div>
                 </div>
@@ -41,7 +38,6 @@ const Home = () => (
                         I hope you have fun checking out my Discord-themed portfolio site!
                         <br></br>
                         You can click the links in the sidebar to get to my online profiles and resume, 
-                        <br></br>
                         or any of the tabs to hit other parts of my portfolio.
                     </div>
                 </div>
