@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9070379f.chunk.css",
+    "main.css": "/static/css/main.5c0943d9.chunk.css",
     "main.js": "/static/js/main.112d35c6.chunk.js",
     "main.js.map": "/static/js/main.112d35c6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9ea82314.js",
@@ -8,9 +8,9 @@
     "static/js/2.0f780297.chunk.js": "/static/js/2.0f780297.chunk.js",
     "static/js/2.0f780297.chunk.js.map": "/static/js/2.0f780297.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c51327cf34de62cba524c061f49b2b4c.js": "/precache-manifest.c51327cf34de62cba524c061f49b2b4c.js",
+    "precache-manifest.56cc370ccaec5d22c0ee90116d0a87ba.js": "/precache-manifest.56cc370ccaec5d22c0ee90116d0a87ba.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9070379f.chunk.css.map": "/static/css/main.9070379f.chunk.css.map",
+    "static/css/main.5c0943d9.chunk.css.map": "/static/css/main.5c0943d9.chunk.css.map",
     "static/media/cv.pdf": "/static/media/cv.02b7f4f5.pdf",
     "static/media/entertheblungeon.png": "/static/media/entertheblungeon.5a1977d0.png",
     "static/media/safewalk.png": "/static/media/safewalk.e5633402.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.9ea82314.js",
     "static/js/2.0f780297.chunk.js",
-    "static/css/main.9070379f.chunk.css",
+    "static/css/main.5c0943d9.chunk.css",
     "static/js/main.112d35c6.chunk.js"
   ]
 }
