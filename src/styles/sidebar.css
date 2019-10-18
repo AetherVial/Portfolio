@@ -207,7 +207,7 @@ div > svg {
 
 #skillz > div {
     display: flex;
-    height: 20px;
+    min-height: 20px;
     padding-left: 10%;
     font-size: 14px;
     width: 80%;
@@ -235,6 +235,8 @@ div > svg {
     width: 100%;
     display: flex;
     justify-content: center;
+    height: 40px;
+    flex-shrink: 0;
 }
 #skillz > ul > li > div {
     display: flex;
