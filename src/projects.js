@@ -14,7 +14,7 @@ const Projects = () => (
             Welcome to my projects portfolio!
         </div>
             <div className='chat'>
-                <div className="icon-container"><div className='chatIcon'>hi</div> </div>
+                <div className="icon-container"><img src={require("./assets/wider-min.jpg")} className='chatIcon' alt="" /></div>
                 <div>
                     <div className='author'>Stanton  <p>Today at {time}</p></div>
                     <div>
@@ -30,7 +30,7 @@ const Projects = () => (
             </div>
 
             <div className='chat'>
-                <div className="icon-container"><div className='chatIcon'>hi</div> </div>
+                <div className="icon-container"><img src={require("./assets/wider-min.jpg")} className='chatIcon' alt="" /> </div>
                 <div>
                     <div className='author'>Stanton  <p>Today at {time}</p></div>
                     <div>
@@ -46,7 +46,7 @@ const Projects = () => (
             </div>
 
             <div className='chat'>
-                <div className="icon-container"><div className='chatIcon'>hi</div> </div>
+                <div className="icon-container"><img src={require("./assets/wider-min.jpg")} className='chatIcon' alt="" /> </div>
                 <div>
                     <div className='author'>Stanton  <p>Today at {time}</p></div>
                     <div>

@@ -15,7 +15,9 @@ const Home = () => (
                 This is the beginning of your chat history with @Stanton.
             </div>
             <div className='chat'>
-                <div className="icon-container"><div className='chatIcon'>hi</div> </div>
+                <div className="icon-container">
+                    <img src={require("./assets/wider-min.jpg")}className='chatIcon' alt=""/>
+                </div>
                 <div>
                     <div className='author'>Stanton  <p>Today at {time}</p></div>
                     <div>
@@ -31,7 +33,7 @@ const Home = () => (
                 </div>
             </div>
             <div className='chat'>
-                <div className="icon-container"><div className='chatIcon'>hi</div> </div>
+                <div className="icon-container"><img src={require("./assets/wider-min.jpg")} className='chatIcon' alt="" /> </div>
                 <div>
                     <div className='author'>Stanton  <p>Today at {time}</p></div> 
                     <div>
