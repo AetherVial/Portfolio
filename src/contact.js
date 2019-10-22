@@ -83,7 +83,7 @@ const Contact = () => (
                 <div>
                     <div className='author'>Resume  <p>Today at {time}</p></div>
                     <div>
-                        <a target="_blank" rel="noopener noreferrer" href={require("./assets/cv.pdf")} >Click Me</a>
+                        <a target="_blank" rel="noopener noreferrer" href={require("./assets/resume.pdf")} >Click Me</a>
                     </div>
                 </div>
             </div>
