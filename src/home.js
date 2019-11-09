@@ -56,6 +56,19 @@ const Home = () => (
                     </div>
                 </div>
             </div>
+            <div className='chat'>
+                <div className="icon-container">
+                    <img src={require("./assets/wider-min.jpg")} className='chatIcon' alt="" />
+                </div>
+                <div>
+                    <div className='author'>Resume  <p>Today at {time}</p></div>
+                    <div>
+                        And here's a picture of me: <br></br><br></br>
+                        <img style={{height:"150px", width:"auto", objectFit:"contain"}} src={require("./assets/wider-min.jpg")}/>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 )
