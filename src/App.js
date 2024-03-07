@@ -1,27 +1,20 @@
 import React from 'react';
-import {HashRouter, Route} from 'react-router-dom';
 import './App.css';
 import Sidebar from './sidebar';
-import Links from './links';
-import Home from './home';
-import Projects from './projects';
-import Skills from './skills';
-import FakeChat from './fakechat';
-import Contact from './contact';
+import Body from './body';
+import { HashRouter, Route } from 'react-router-dom/cjs/react-router-dom.min';
+import FakeChat from './components/fakechat';
 
 function App() {
   return (
-    <HashRouter>
-      <div className="App">
-        <Route path="/" component={Links}/>
-        <Route path="/" component={Sidebar}/>
-        <Route path="/" component = {FakeChat} />
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/projects" component={Projects}/>
-        <Route exact path="/skills" component={Skills} />
-        <Route exact path="/contact" component={Contact} />
+      <div className="grid-columns-2">
+        {/* hi my name is App */}
+        <HashRouter>
+          <Route path="/" component={Sidebar}/>
+          <Route exact path="/" component={Body}/>
+          <Route path="/" component={FakeChat}/>
+        </HashRouter>
       </div>
-    </HashRouter>
   );
 }
 

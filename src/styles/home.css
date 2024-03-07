@@ -1,36 +1,14 @@
 .home {
     width: 100%;
 }
-.home > nav {
-    width: calc(100% - 320px);
-    left: 315px;
-    min-height: 45px;
-    box-shadow: 0px 2px 3px -2px rgba(0, 0, 0, .8);
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    padding-left: 20px;
-    color: white;
-    font-size: 10px;
-    position: fixed;
-    background-color: rgb(54,57,63);
-    z-index: 1;
-}
-
-nav > svg {
-    height: 25px;
-    width: 25px;
-    padding-right: 7.5px;
-    color: grey;
-}
 
 .home > div {
     bottom: 0;
     height: 100%;
     width: calc(100% - 320px);
     overflow-y: auto;
-    margin-top: 45px;
-    padding-left: 315px;
+    /* margin-top: 45px; */
+    padding-left: 250px;
     color: white;
 }
 
@@ -42,25 +20,6 @@ nav > svg {
     display: flex;
     justify-content: left;
     border-bottom: 1px solid rgba(100,100,100,.8);
-}
-
-.beginning {
-    display: flex;
-    justify-content: left;
-    align-items: flex-end;
-    background-image: url('../assets/discord-right.png'), url('../assets/discord-left.png');
-    background-position: left bottom, right bottom;
-    background-repeat: no-repeat, no-repeat;
-    height: 75px;
-    width: 92%;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-bottom: 1px solid rgba(100,100,100,.8);
-    padding-bottom: 5px;
-    font-size: 15px;
-    font-weight: bold;
 }
 
 .chat {

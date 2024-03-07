@@ -11,40 +11,8 @@ const Projects = () => (
     </nav>
     <div>
         <div className='beginning'>
-            Welcome to my projects portfolio!
+            Welcome to my work experience & projects portfolio!
         </div>
-            <div className='chat'>
-                <div className="icon-container"><img src={require("./assets/wider-min.jpg")} className='chatIcon' alt="" /></div>
-                <div>
-                    <div className='author'>Stanton  <p>Today at {time}</p></div>
-                    <div>
-                        This is Vaporize, a full stack Spotify clone using: Ruby on Rails, React / Redux and PostgreSQL. 
-                        <br></br>
-                        Hope you enjoy it! <a rel="noopener noreferrer" target="_blank" style={{color: 'gold'}} href="https://vaporize-sh.herokuapp.com">Live Link</a>
-                        <br></br>
-                        <a href="https://vaporize-sh.herokuapp.com" target="_blank" rel="noopener noreferrer">
-                            <img alt="" src={require("./assets/vaporize.png")}></img>
-                            </a>
-                    </div>
-                </div>
-            </div>
-
-            <div className='chat'>
-                <div className="icon-container"><img src={require("./assets/wider-min.jpg")} className='chatIcon' alt="" /> </div>
-                <div>
-                    <div className='author'>Stanton  <p>Today at {time}</p></div>
-                    <div>
-                        Welcome to Safewalker, a walking route finding application using: MongoDB, Express.js, React / Redux and Node.js.
-                        <br></br>
-                        Check it out here! <a rel="noopener noreferrer" target="_blank" style={{ color: 'gold' }} href="https://safewalker.herokuapp.com">Live Link</a>
-                        <br></br>
-                        <a href="https://safewalker.herokuapp.com" target="_blank" rel="noopener noreferrer">
-                            <img alt="" src={require("./assets/safewalk.png")}></img>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
             <div className='chat'>
                 <div className="icon-container"><img src={require("./assets/wider-min.jpg")} className='chatIcon' alt="" /> </div>
                 <div>
@@ -54,15 +22,15 @@ const Projects = () => (
                         <br></br>
                         Play it here: <a rel="noopener noreferrer" target="_blank" style={{ color: 'gold' }} href="https://aethervial.github.io/Game">Live Link</a>
                         <br></br>
-                        <a href="https://aethervial.github.io/Game" target="_blank" rel="noopener noreferrer">
-                            <img alt="" src={require("./assets/entertheblungeon.png")}></img>
-                        </a>
+                        {/* <a href="https://aethervial.github.io/Game" target="_blank" rel="noopener noreferrer"> */}
+                            <img className="previewImage" alt="boss fight gif" src={require("./assets/boss2.gif")}></img>
+                        {/* </a> */}
                     </div>
                 </div>
             </div>
-
+{/* 
             <div className="chat" style={{height: '75px'}}>
-            </div>
+            </div> */}
     </div>
 </div>
 )
